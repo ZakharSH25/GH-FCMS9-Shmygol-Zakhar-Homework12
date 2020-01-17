@@ -1,0 +1,371 @@
+.about-block {
+  padding-top: 110px;
+  padding-bottom: 110px;
+
+  .row {
+    > li {
+      margin-bottom: 15px;
+    }
+  }
+
+  .about-block-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+  }
+}
+
+
+.about-list-item {
+  text-align: center;
+  padding-top: 160px;
+
+  .about-list-title {
+    margin-top: 85px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0.75px;
+  }
+
+  .about-list-paragraph {
+    color: #87949e;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+  }
+}
+
+.img-holder {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #edeff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+
+  .svg-item {
+    fill: #87949e;
+  }
+
+  &:hover {
+    background-color: #17daa3;
+
+    .svg-item {
+      fill: #fff;
+    }
+  }
+}
+.lorem-block {
+  min-height: 120vh;
+  width: 100%;
+}
+.lorem-block-top-fluid {
+  background-color: #edeff1;
+
+  .lorem-block-top-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 60vh;
+    
+    @media (max-width: 1200px) {
+      align-items: center;
+    }
+  }
+}
+.lorem-block-title {
+  color: #576671;
+  font-family: "Raleway - Extra Light", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 1.5px;
+  margin-bottom: 70px;
+}
+.lorem-block-paragraph {
+  width: 717px;
+  height: 124px;
+  color: #87949e;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.45px;
+  margin-bottom: 80px;
+}
+.lorem-block-bottom {
+  padding-top: 170px;
+}
+
+.opinion-main-block {
+  min-height: 40vh;
+  background-image: url("../../assets/img/background-opinion.png");
+  display: flex;
+  justify-content: center;
+
+  .opinion-secondly-block {
+    min-height: 40vh;
+    margin-right: 0;
+    margin-left: 0;
+
+    .opinion-item {
+
+      .opinion-item-img {
+        padding-bottom: 50px;
+      }
+
+
+      .opinion-item-main-paragraph {
+        height: 29px;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 96px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        padding-bottom: 40px;
+
+        .highlighting {
+          color: #17daa3;
+        }
+      }
+      .opinion-item-secondly-paragraph {
+        height: 19px;
+        opacity: 0.3;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 96px;
+        letter-spacing: 0.45px;
+        text-align: center;
+
+        .highlighting {
+          font-family: "Raleway Medium", sans-serif;
+          font-weight: 700;
+          letter-spacing: 0.45px;
+        }
+      }
+      .block-points {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+
+        .block-painted-point {
+          width: 10px;
+          height: 10px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+        .block-point {
+          width: 10px;
+          height: 10px;
+          border: 2px solid #ffffff;
+          margin-right: 10px;
+          margin-left: 10px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+.main-header {
+  text-align: center;
+  padding-top: 50px;
+
+  .main-title {
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    color: #576671;
+    font-family: 'Raleway - Extra Light', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 1px;
+      background-color: #17daa3;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: .3s;
+    }
+
+    &:hover {
+      &::after {
+        width: 200px;
+      }
+    }
+  }
+  .main-paragraph {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    color: #87949e;
+    font-size: 18px;
+    line-height: 96px;
+  }
+}
+.services-block {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+
+  .services-block-item {
+    display: flex;
+    padding-top: 120px;
+
+    .portfolio-img {
+      background-image: url("../../assets/img/Portfolio.png");
+      width: 32px;
+      height: 29px;
+    }
+  }
+
+  .services-block-item-text-paragraph {
+    width: 531px;
+    height: 65px;
+    color: #87949e;
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47.91px;
+    letter-spacing: 0.45px;
+  }
+}
+.services-block-item-text-title {
+  width: 230px;
+  height: 46px;
+  color: #576671;
+  font-family: "Raleway - Extra Light", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 95.82px;
+  letter-spacing: 1.5px;
+  margin-bottom: 60px;
+
+  &:hover {
+   color: #17daa3;
+    transition: .2s;
+  }
+}
+.team-block-main-item {
+  width: 400px;
+  height: 400px;
+  opacity: 0.9;
+  background-color: #e4e4e4;
+  color:#e4e4e4 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway - Extra Light", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 0.9px;
+
+  &:hover {
+    color: white;
+    background-color: #17daa3;
+    transition: .3s;
+  }
+}
+.team-block-secondly-item {
+  width: 400px;
+  height: 400px;
+  opacity: 0.9;
+  background-color: #f9f9fa;
+  color: #f9f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway - Extra Light", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 0.9px;
+
+  &:hover {
+    color: white;
+    background-color: #17daa3;
+    transition: .3s;
+  }
+}
+.team-block {
+ padding-top: 100px;
+}
+.pricing-block {
+  background-color: #f9f9fa;
+
+  .pricing-block-items {
+    margin-top: 100px;
+
+    .pricing-block-secondly-item {
+      box-shadow: 0 0 35px rgba(227, 227, 227, 0.65);
+      border-radius: 5px;
+      background-color: #ffffff;
+      margin-left:5px;
+      margin-right: 5px;
+
+      .pricing-block-price {
+        color: #17daa3;
+        font-family: "Raleway - Extra Light", sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 96px;
+        padding-left: 30px;
+        padding-top: 55px;
+
+        .highlighting {
+          letter-spacing: 1.5px;
+        }
+      }
+      .pricing-block-comment {
+        height: 20px;
+        opacity: 0.45;
+        color: #87949e;
+        font-family: "Karla", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.45px;
+        padding-left: 30px;
+      }
+      .pricing-block-paragraph {
+        color: #87949e;
+        font-family: "Karla", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.45px;
+        padding-left: 30px;
+        padding-top: 120px;
+      }
+    }
+  }
+}
+.map-block {
+  padding-top: 130px;
+
+  .map {
+    background-image: url("../../assets/img/Map.png");
+    height: 519px;
+    opacity: 0.7;
+  }
+}

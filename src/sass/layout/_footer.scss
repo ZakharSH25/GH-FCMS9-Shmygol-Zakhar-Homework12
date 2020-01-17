@@ -1,0 +1,40 @@
+.footer-main-block {
+  min-height: 120vh;
+
+  .footer-top {
+    min-height: 60vh;
+    background-image: url("../../src/img/Try_our_template.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .footer-top-title {
+      color: #ffffff;
+      font-size: 60px;
+      line-height: 96px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      text-align: center;
+      padding-bottom: 100px;
+
+      .highlighting {
+        font-weight: 700;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+  .footer-main-bottom {
+    min-height: 60vh;
+
+    .footer-secondly-bottom {
+      padding-top: 70px;
+
+      .footer-bottom-logo {
+        width: 26px;
+        height: 26px;
+      }
+    }
+  }
+}

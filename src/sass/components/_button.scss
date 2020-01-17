@@ -1,0 +1,106 @@
+.main-button {
+  width: 185px;
+  height: 45px;
+  border-radius: 24px;
+  border: 2px solid #17daa3;
+  background-color: #17daa3;
+
+  &:hover {
+    border: 2px solid #17daa3;
+    background-color: #fff;
+    color:#17daa3;
+  }
+}
+.logo-nav-button {
+  background-image: url('../../src/img/Vector_Smart_Object.png');
+  width: 23px;
+  height: 23px;
+  border: 0;
+  background-color: rgba(0,0,0,0);
+}
+.left-arrow {
+  width: 27px;
+  height: 53px;
+  background-image: url("../../assets/img/Left_arrow.png");
+  background-color: rgba(0,0,0,0);
+  border: 0;
+}
+.right-arrow {
+  width: 27px;
+  height: 53px;
+  background-image: url("../../assets/img/Right_arrow.png");
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+.secondly-button {
+  width: 185px;
+  height: 50px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0,0,0,0);
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  text-align: center;
+
+  &:hover {
+    background-color: #17daa3;
+    border: 2px solid #17daa3;
+  }
+
+}
+.header-slider-motto-block-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.bottom-arrow-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -200px;
+}
+.bottom-arrow {
+  width: 30px;
+  height: 15px;
+  opacity: 0.5;
+  background-color: rgba(0,0,0,0);
+  background-image: url("../../assets/img/Down_Arrow.png");
+  border: 0;
+}
+.main-button {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+.pricing-block-button {
+  width: 245px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #17daa3;
+  border: 0;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .pricing-block-button-text {
+    color: #ffffff;
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+  }
+  .pricing-block-button-img {
+    background-image: url("../../assets/img/Icon.png");
+    width: 19px;
+    height: 18px;
+  }
+}
